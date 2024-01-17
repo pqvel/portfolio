@@ -1,8 +1,10 @@
+import Nav from "../nav/Nav";
+
 const CertificatesPage = () => {
 	return (
-		<div>
-			<div></div>
-		</div>
+		<>
+			<Nav />
+		</>
 	);
 };
 

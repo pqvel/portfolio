@@ -1,11 +1,9 @@
 import { RouterProvider } from "react-router-dom";
 import { router } from "../../routes/router";
+import "../../background";
+
 const App = () => {
-	return (
-		<div>
-			<RouterProvider router={router} />
-		</div>
-	);
+	return <RouterProvider router={router} />;
 };
 
 export default App;

@@ -1,7 +1,8 @@
+import Nav from "../nav/Nav";
 const HistoryPage = () => {
 	return (
 		<div>
-			<div></div>
+			<Nav />
 		</div>
 	);
 };

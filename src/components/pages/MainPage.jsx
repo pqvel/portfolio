@@ -1,8 +1,9 @@
+import Nav from "../nav/Nav";
 const MainPage = () => {
 	return (
-		<div>
-			<div></div>
-		</div>
+		<>
+			<Nav />
+		</>
 	);
 };
 

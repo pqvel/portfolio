@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+#root {
+	min-height: 100%;
+	z-index: 1;
+}
+
+body {
+	background: linear-gradient(
+		149deg,
+		rgb(25, 27, 26) 0%,
+		rgb(22, 18, 28) 42%,
+		rgb(27, 2, 21) 72%,
+		rgb(25, 2, 32) 100%
+	);
+	animation: gradient 10s infinite linear;
+	background-size: 400%;
+	min-height: 100%;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 80% 0%;
+	}
+	50% {
+		background-position: 20% 100%;
+	}
+	100% {
+		background-position: 80% 0%;
+	}
+}
+
+#three-js {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}

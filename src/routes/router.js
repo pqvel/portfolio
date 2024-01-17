@@ -6,14 +6,14 @@ import HistoryPage from "../components/pages/HistoryPage";
 export const router = createBrowserRouter([
 	{
 		path: "/",
-		element: <MainPage />,
+		Component: MainPage,
 	},
 	{
 		path: "/certificates",
-		element: <CertificatesPage />,
+		Component: CertificatesPage,
 	},
 	{
 		path: "/history",
-		element: <HistoryPage />,
+		Component: HistoryPage,
 	},
 ]);
