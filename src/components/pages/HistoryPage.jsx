@@ -9,7 +9,8 @@ const HistoryPage = () => {
           <p className=" text-white text-xl">
             Мне 21 год, и я студент четвертого курса в БГПУ имени Максима Танка
             по специальности "Физика информатика". Также, я работаю frontend
-            разработчиком в компании apteka.by уже год.
+            разработчиком в компании <a href="https://apteka.by/">Apteka.by</a>{" "}
+            уже год.
           </p>
 
           <p className="text-white text-xl">
